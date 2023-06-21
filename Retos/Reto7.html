@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro De Usuario</title>
+    <link rel="stylesheet" href="css/Style7.css">
+</head>
+<body >
+    <div class="cont">
+        <header>
+            <div class="menu">
+              <h1 class="animacion">JavaScript 
+              <img class="animacion" src="img/js.png">
+              <a href="index.html">
+              <button >Inicio</button></a>
+              <a href="reto1.html">
+          <button >Reto 1</button></a>
+          <a href="reto2.html">
+          <button >Reto 2</button></a>
+          <a href="reto3.html">
+          <button >Reto 3</button></a>
+          <a href="Reto4.html">
+          <button >Reto 4</button></a>
+          <a href="Reto5.html">
+          <button >Reto 5</button></a>
+          <a href="Reto6.html">
+          <button >Reto 6</button></a>
+              </h1></div>
+             </header>
+             
+      <img src="img/imgsi.webp" class="img1">
+ <div class="cont1">          
+    <form action="index.html" novalidate id="frmValidacion"><br>
+        <h1>Registrar Usuario</h1>
+    <div id="selectTipo">
+        <label >Tipo De Cocumento</label>
+        <br>
+        <select name="tipo" id="tipo">
+            <option value="0">-seleccionar-</option>
+            <option value="1">Targeta De Identidad</option>
+            <option value="2">Cedula Ciudadana</option>
+            <option value="3">Cedula Extrangera</option>
+        </select>
+        <div class="feedback"></div>
+        <br><br>
+    </div>
+
+        <div id="InputNumDoc">
+        <label>Numero De Documento</label><br>
+        <input type="text"  name="NumDoc" id="NumDoc" placeholder="Digite el numero de docuemnto">
+        <div class="feedback" id="respuesta"></div>
+        <br><br>
+    </div>
+    <div id="InputNombre">
+        <label >Nombre</label><br>
+        <input type="text"name="nombre" id="nombre" placeholder="Digite su nombre">
+        <div class="feedback"></div>
+        <br><br>
+    </div>
+    <div id="InputApellido">
+        <label >Apellido</label><br>
+        <input type="text"  name="apellido" id="apellido" placeholder="Digite su apellido">
+        <div class="feedback"></div>
+        <br><br>
+    </div>
+
+    <div id="InputFecha">
+        <label >Fecha De Nacimiento</label><br>
+        <input type="date" name="FechaNa" id="FechaNa"  >
+        <div class="feedback"></div>
+        <br><br>
+    </div>
+    
+    <div id="InputEmail">
+        <label >Email</label><br>
+        <input type="email" name="correo" id="correo" placeholder="Digite su Email" >
+        <div class="feedback"></div>
+        <br><br>
+    </div>
+    
+    <div id="InputPass">
+        <label >Contraseña</label><br>
+        <input type="password" name="pass1" id="pass1" placeholder="Digite su contraseña" >
+        <div class="feedback"></div>
+        <br><br>
+    </div>
+
+    <div id="InputPass1">
+        <label >Confirmar Contraseña</label><br>
+        <input type="password" name="pass2" id="pass2"  placeholder="Confirme su contraseña">
+        <div class="feedback"></div>
+        <br><br>
+    </div>
+    <div id="InputTerminos" class="InputTerminos">
+        <p>Acepta los terminos y condiciones
+        <input id="myCheckbox" class="input1" type="checkbox">
+        </p>
+        <button id="open" class="buton1">leer</button>
+    </div>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <h3>Terminos y condiciones </h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique voluptatem fugit inventore suscipit itaque laborum vitae, sapiente alias iste tenetur nisi voluptatibus! Officiis, alias hic! Soluta adipisci esse neque cumque.</p> 
+                    <p>Los términos y condiciones están sujetos a cambios sin previo aviso.
+                    </p>
+                    <br>
+                <button class="close" class="buton2">Cancelar</button>
+                <button class="close1" >Acepta</button>
+            </div>
+        </div>
+        <div id="feedback9"></div>
+        <button type="submit" class="buton2"> registrarse</button>
+         
+    </div>    
+</form>
+</div>
+    </div>
+    <script src="js/Reto7.js"></script>
+</body>
+</html>

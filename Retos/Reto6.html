@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/Style6.css">
+  <title>Document</title>
+</head>
+<body>
+    <div class="cont">
+        
+  <div class="cont" id="animacion">
+    <header>
+     <div class="menu">
+       <h1 class="animacion">JavaScript 
+       <img class="animacion" src="img/js.png">
+       <a href="index.html">
+       <button >Inicio</button></a>
+       <a href="reto1.html">
+   <button >Reto 1</button></a>
+   <a href="reto2.html">
+   <button >Reto 2</button></a>
+   <a href="reto3.html">
+   <button >Reto 3</button></a>
+   <a href="Reto4.html">
+   <button >Reto 4</button></a>
+   <a href="Reto5.html">
+   <button >Reto 5</button></a>
+   <a href="Reto7.html">
+   <button >Reto 7</button></a>
+       </h1></div>
+      </header>
+      <img src="img/imgsi.webp" class="img1">
+    <div class="cont1">
+        
+        <h1>Área o Perimetro</h1>
+        <div class="cont-Tri">
+        <h3 class="a">Triángulo</h3>
+        <img class="img2" src="img/triangulo.png" ><br>
+        <button id="open">Área</button>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">x</span>
+                <h2>Calcular Área de Triángulo</h2>
+                <form id="triangleForm">
+                    <label for="base">Base</label><br>
+                    <input type="number" id="base" placeholder="Digite la base" required>
+                    <br><br>
+                    <label for="height">Altura</label><br>
+                    <input type="number" id="height" placeholder="Digite la altura" required>
+                    <br><br>
+                    <button type="submit" class="buton1">Calcular</button>
+                </form>
+                <div id="result"></div>
+           
+            </div>
+            </div>
+            <button id="openPerimetro">Perimetro</button>
+            <div id="modalPerimetro" class="modal1">
+                <div class="modal-content1">
+                    <span class="closePe">x</span>
+                    <h2>Calcular Perimetro de Triángulo</h2>
+                    <form id="formPeriTri">
+                        <label for="lado1">Lado 1</label><br>
+                        <input type="number" id="lado1" placeholder="Digite el lado 1" required>
+                        <br><br>
+                        <label for="lado2">Lado 2</label><br>
+                        <input type="number" id="lado2" placeholder="Digite el lado 2" required>
+                        <br><br>
+                        <label for="lado3">Lado 3</label><br>
+                        <input type="number" id="lado3" placeholder="Digite el lado 3">
+                        <br><br>
+                        <button type="submit" class="buton1" >Calcular</button>
+                        
+                    </form>
+                    <div id="resultado"></div>
+                    </div>
+                </div>
+                </div>
+                <div class="cont-Cir">
+            <h3>Circulo</h3>
+            <img src="img/circulo.png" ><br>
+            <button id="abrirCirculo">Área</button>
+            <div id="modalCirculo" class="modalCirculo">
+                <div class="modal-content2">
+                    <span class="cerrarCirculo">x</span>
+                    <h2>Calcula el Área del circulo</h2>
+                    <form id="formAreaCirculo">
+                        <label for="radio"> Radio</label><br>
+                        <input type="number" id="radio" placeholder="Digite el lado 1" required>
+                        <br><br>
+                        <button type="submit" class="buton1">Calcular</button>
+                    </form>
+                    <div id="resultado1"></div>
+                    </div>
+                </div>
+                <button id="abrirPerimetroCi1">Perimetro</button>
+                <div id="modalPeriCi" class="modalPerimetroCirculo">
+                    <div class="modal-content3">
+                        <span class="cerrarPeriCi1">x</span>
+                        <h2>Calcular Perimetro de Triángulo</h2>
+                        <form id="formPerimetroCi1">
+                            <label for="radio2">Radio 1</label><br>
+                            <input type="number" id="radio2" placeholder="Digite el lado 1" required>
+                            <br><br>
+                            <button type="submit" class="buton1">Calcular</button>
+                        </form>
+                        <div id="resultado2"></div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="cont-Rec">
+                        <h3>Rectangulo</h3>
+                        <img src="img/rectangulo.png"><br>
+                        <button id="abrirRectangulo">Área</button>
+                <div id="modalRectangulo" class="modalRectangulo">
+                    <div class="modal-content4">
+                        <span class="cerrarRectangulo">x</span>
+                        <h2>Calcular Área de Rectangulo</h2>
+                        <form id="formRectangulo">
+                            <label for="base1">Base</label><br>
+                            <input type="number" id="base1" placeholder="Digite el lado 1" required>
+                            <br><br>
+                            <label for="altura1">Altura</label><br>
+                            <input type="number" id="altura1" placeholder="Digite el lado 2" required>
+                            <br><br>
+                            <button type="submit" class="buton1">Calcular</button>
+                        </form>
+                        <div id="resultado3"></div>
+                        </div>
+                    </div>
+                    <button id="abrirPerimetroRe">Perimetro</button>
+                <div id="modalPerimetroRe" class="modalPerimetroCirculo">
+                    <div class="modal-content5">
+                        <span class="cerrarPerometroRe">x</span>
+                        <h2>Calcular Perimetro de Rectangulo</h2>
+                        <form id="formRectanguloPeri">
+                            <label for="base2">Base</label><br>
+                            <input type="number" id="base2" placeholder="Digite el lado 1" required>
+                            <br><br>
+                            <label for="altura2">Altura</label><br>
+                            <input type="number" id="altura2" placeholder="Digite el lado 2" required>
+                            <br><br>
+                            <button type="submit" class="buton1">Calcular</button>
+                        </form>
+                        <div id="resultado4"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-Cua">
+                    <h3>Cuadrado</h3>
+                    <img src="img/cuadrado.png" ><br>
+                    <button id="abrirModalCu">Área</button>
+                    <div id="modalCuadrado" class="modalCuadrado">
+                        <div class="modal-content6">
+                            <span class="cerrarCuadrado">x</span>
+                            <h2>Calcular área de Cuadrado</h2>
+                            <form id="formCuadrado">
+                                <label for="lado4">Lado 1</label><br>
+                                <input type="number" id="lado4" placeholder="Digite el lado 1" required>
+                                <br><br>
+                                <button type="submit" class="buton1">Calcular</button>
+                            </form>
+                            <div id="resultado5"></div>
+                            </div>
+                        </div>
+                        <button id="abrirModalPeCu">Perimetro</button>
+                    <div id="modalPeCuadrado" class="modalPeCuadrado">
+                        <div class="modal-content7">
+                            <span class="cerrarPerimetroCu">x</span>
+                            <h2>Calcular Perimetro de Rectangulo</h2>
+                            <form id="formularioCalcularPerimetroCu">
+                                <label for="nose">Lado</label><br>
+                                <input type="number" id="nose" placeholder="Digite el lado 1" required>
+                                <br><br>
+                                <button type="submit" class="buton1">Calcular</button>
+                            </form>
+                            <div id="resultado6"></div>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+
+            
+        </div>
+        <script type="text/JavaScript" src="js/Reto6.js"></script>
+
+</body>
+</html>

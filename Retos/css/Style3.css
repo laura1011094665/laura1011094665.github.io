@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0) ;
+}
+.cont{
+  margin: 1%;
+  width: 97%;
+  height: 94vh;
+  background: rgb(240, 235, 243);
+}
+.cont .img1{
+  margin: 2%;
+  width: 96%;
+  height: 70vh;
+}
+header{
+  height: 10%;
+}
+.menu{
+  width: 100%;
+  height: 50%;
+  background: rgb(240, 235, 243);
+}
+
+.menu button{
+  color: #000;
+  margin: 6px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgb(240, 235, 243);
+  position: relative;
+  top: 80%;
+  left: 30%;
+  width: 5%;
+  height: 16px;
+  border: none; 
+  transition-duration: 1s;
+}
+
+.menu button:hover{
+  border-bottom:1px solid #000;
+  border-radius: 3px;
+  top: -3px;
+  left: 31%;
+}
+.menu h1{
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
+
+.cont1{
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  background: rgb(240, 235, 243);
+  text-align: center;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5%;
+  margin-top: 4%;
+  width: 30%;
+  height: 40%;
+}
+.img1{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  
+}
+
+
+h1{
+    font-size: 23px;
+}
+
+label{
+    position: relative;
+    right: 12px;
+    top: 12px;
+}
+.b{
+    position: relative;
+    right: 50PX;
+
+}
+.c{
+    position: relative;
+    right: 35PX;
+
+}
+.d{
+    position: relative;
+    right: 32PX;
+
+}
+input, .a{
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 210px;
+    position: relative;
+    top: 12px;
+    border-radius: 4px;
+}
+
+input ::placeholder{
+    background: black;
+}
+
+button{
+    background: none;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 17px;
+    transform-origin: top left;
+    transition: transform 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
